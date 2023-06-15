@@ -215,14 +215,14 @@ Visual Studio Code
   
 Diese erweiterungen kann man bei Visual Studio code an der Linken Seite finden... 
 
-![Erweiterungen bei Visual Studio Code](/Screenshot/extensions.png)
+![Erweiterungen bei Visual Studio Code](Screenshot/extensions.png)
 
 ### **Einstellungen anpassen**
 
 1. Damit nicht alle Daten beim Cloud Repository hinzugefügt werden kann man eine sogennante .gitignor datei erstellen.
 2. Hierzu ein Screenshot wie die Aussieht:
 
-![Ausnahmen für Cloud-Repository](/Screenshot/gitignore.png)
+![Ausnahmen für Cloud-Repository](Screenshot/gitignore.png)
 
 1. Ich würde euch meine gezeigten Einstellungen empfehlen.
 
@@ -230,7 +230,7 @@ Diese erweiterungen kann man bei Visual Studio code an der Linken Seite finden..
 
 1. Damit man die Ganzen Änderungen hochladen kann, muss man an der Linken Seite unter Source Control gehen. Eine Nachricht hinzufügen und dann commit sagen. Nach dem man die Bestätigung gegeben hat und die Daten hochgeladen wurden, muss man noch Synchronisieren.
 
-![Upload der Veränderungen](/Screenshot/push-changes.png)
+![Upload der Veränderungen](Screenshot/push-changes.png)
 
 Automatischer Web-Server | MyVagrant Folder
 ======
@@ -272,6 +272,3 @@ Wichtige Befehle
 | `git merge`   | Führt zwei oder mehr Branches zusammen                           |
 | `git status`  | Zeigt den Status der Arbeitskopie und des Repositories an        |
 | `git log`     | Zeigt die Versionsgeschichte mit allen Commits an                |
-
-[&uarr; nach oben](LB2/10-Toolumgebung)
-
