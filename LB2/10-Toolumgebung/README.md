@@ -215,14 +215,14 @@ Visual Studio Code
   
 Diese erweiterungen kann man bei Visual Studio code an der Linken Seite finden... 
 
-![Erweiterungen bei Visual Studio Code](/Screenshot/Erweiterungen.png)
+![Erweiterungen bei Visual Studio Code](/Screenshot/extensions.png)
 
 ### **Einstellungen anpassen**
 
 1. Damit nicht alle Daten beim Cloud Repository hinzugefügt werden kann man eine sogennante .gitignor datei erstellen.
 2. Hierzu ein Screenshot wie die Aussieht:
 
-![Ausnahmen für Cloud-Repository](/Screenshot/Gitignore.png)
+![Ausnahmen für Cloud-Repository](/Screenshot/gitignore.png)
 
 1. Ich würde euch meine gezeigten Einstellungen empfehlen.
 
