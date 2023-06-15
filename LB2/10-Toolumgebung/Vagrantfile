@@ -1,6 +1,35 @@
+
+# Der folgende Code dient zur Konfiguration einer virtuellen Maschine (VM) mithilfe von Vagrant. 
+# Vagrant ist ein Tool, das Entwicklern ermöglicht, schnell und einfach VMs für ihre Entwicklungsumgebungen einzurichten.
+
+
+# In diesem spezifischen Beispiel wird eine VM mit dem Betriebssystem Ubuntu Xenial 64-Bit erstellt. 
+# Die Zeile "Vagrant.configure("2") do |config|" zeigt den Beginn der Konfiguration an und stellt sicher, dass die richtige Version von Vagrant verwendet wird.
+
 Vagrant.configure("2") do |config|
+
+
+
+# Die nächste Zeile, "config.vm.box = "ubuntu/xenial64"", definiert die Box, die als Basis für die VM verwendet wird. 
+# Eine Box ist im Wesentlichen ein vorbereitetes Image, das die Grundlage für die VM bildet. 
+# In diesem Fall wird die Box "ubuntu/xenial64" verwendet, die das Betriebssystem Ubuntu in der Version Xenial enthält.
+  
     config.vm.box = "ubuntu/xenial64"
+
+
+
+# Die Zeile "config.vm.network "forwarded_port", guest:80, host:8080, auto_correct: true" richtet eine Portweiterleitung ein. 
+# Das bedeutet, dass der Port 80 in der VM auf den Port 8080 auf dem Host-System weitergeleitet wird. 
+#Die Option "auto_correct: true" sorgt dafür, dass automatisch ein freier Port ausgewählt wird, falls der angegebene Port bereits verwendet wird.
+
     config.vm.network "forwarded_port", guest:80, host:8080, auto_correct: true
+
+
+
+# Der Abschnitt mit "config.vm.provision "shell", inline: <<-SHELL" bis "SHELL" beschreibt eine Shell-Provisionierung. 
+# Dabei werden Befehle innerhalb der VM ausgeführt, um sie entsprechend vorzubereiten. 
+# In diesem Fall werden die Befehle "apt-get update" und "sudo apt-get install -y apache2" verwendet, um das Paketverwaltungssystem zu aktualisieren und den Apache HTTP-Server in der VM zu installieren.
+
    config.vm.provision "shell", inline: <<-SHELL
       apt-get update
       sudo apt-get install -y apache2
