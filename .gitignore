@@ -1,0 +1,6 @@
+*.iso
+*.box
+*.vagrant
+*.pem
+*.log
+keys.txt
