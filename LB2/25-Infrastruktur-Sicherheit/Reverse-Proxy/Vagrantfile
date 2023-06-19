@@ -28,7 +28,7 @@ Vagrant.configure("2") do |config|
         web.vm.network :private_network, ip: "10.0.0.20"
         web.vm.hostname = "web"
         web.vm.network "forwarded_port", guest:80, host:8090, auto_correct: true
-        web.vm.synced_folder "html/", "/var/www/html"
+        web.vm.synced_folder "index.html", "/var/www/html"
         web.vm.provision "shell", inline: <<-SHELL
         sudo apt-get update
         sudo apt-get -y install apache2 
