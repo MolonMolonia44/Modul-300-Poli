@@ -108,7 +108,7 @@ Vagrant.configure("2") do |config|
         sudo ufw allow 80/tcp
         sudo ufw --force enable
         SHELL
-        reverseproxy.vm.provision "shell", path: "scripts/init.sh"
+        reverseproxy.vm.provision "shell", path: "init.sh"
         reverseproxy.vm.provision "shell", inline: <<-SHELL
         sudo service apache2 restart
         SHELL
