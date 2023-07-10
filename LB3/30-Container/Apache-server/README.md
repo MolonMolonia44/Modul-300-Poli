@@ -12,7 +12,7 @@ docker run -d --name mein-container -p 8080:80 mein-image
 ```
 
 Nachdem ausführen des Befehls sollte das so aussehen:
-![Architecktur Docker](Screenshots/Container.png)
+![Architecktur Docker](Screenshots/2.png)
 
 ### **Wichtig!**
 Die drei Dateien müssen sich im selben Verzeichnis befinden und der Benutzer muss im selben Verzeichnis sein, um die Befehle erfolgreich auszuführen.
