@@ -19,4 +19,4 @@ Die drei Dateien müssen sich im selben Verzeichnis befinden und der Benutzer mu
 
 Schlussendlich sollte man unter http://localhost:8080 das hier sehen:
 
-![Architecktur Docker](Screenshots/Localhost.png)
+![Architecktur Docker](../Apache-http-to-http/Screenshots/Localhost.png)
