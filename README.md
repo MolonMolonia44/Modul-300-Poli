@@ -15,3 +15,14 @@ Im Ordner LB3 tauchen wir tiefer in die Welt der Containerisierung ein, und Sie 
 
 ### **Dokumentation**
 Für beide Ordner LB2 und LB3 ist die jeweilige Dokumentation direkt im entsprechenden Ordner zu finden, und nicht auf der Hauptseite dieses Repository. Bitte durchsuchen Sie diese Ordner, um spezifische Anleitungen, Beispiele und Best Practices zu finden.
+
+
+
+### **Reflexion**
+
+Grundsätzlich ist das ganze Modul gut abgelaufen. Es gab zwar Schwierigkeiten, welche jedoch immer gut gelöst werden konnten. Auch erhielt ich viel Hilfe von Mitschülern, die mir weiterhelfen konnten. Richtige Probleme hatte ich bei LB3 zu beginn, jedoch konnte mir Raphael schnell weiterhelfen.
+
+Vom Vorwissen her sah es bei mir mager aus. Ich hatte lediglich eine Woche lang an einer Schulung im Geschäft teilgenommen, die jedoch nicht viel geholfen hat. Ansonsten hatte ich keine Erfahrung.
+
+Der Wissenszuwachs sieht auch nicht so gut aus, da ich das meiste ziemlich schnell vergessen habe. Außerdem interessiere ich mich nicht wirklich für Docker usw., daher habe ich auch keinen großen Lernfortschritt gemacht.
+
