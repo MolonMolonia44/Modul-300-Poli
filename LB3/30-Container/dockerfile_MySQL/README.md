@@ -15,7 +15,7 @@ Nachdem ausführen des Befehls sollte das so aussehen:
 ![Architecktur Docker](Screenshots/2.png)
 
 Schlussendlich sollte man unter Docker das hier sehen:
-![Architecktur Docker](Screenshots/En3de.png)
+![Architecktur Docker](Screenshots/3.png)
 
 Man kann ebenfalls den unten erwähnten Befehl benutzten um sich auf dem Container wie MySQL zu verbinden:
 ```
