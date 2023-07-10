@@ -15,3 +15,4 @@ Nachdem ausführen des Befehls sollte das so aussehen:
 
 Beim aufrufen der Seite http://localhost sollte man direkt auf https:// geleitet werden und nach User gefragt werden:
 ![Architecktur Docker](Screenshots/3.png)
+![Architecktur Docker](Screenshots/Localhost.png)
