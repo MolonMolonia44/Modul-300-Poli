@@ -4,7 +4,7 @@ docker build -t mein-image .
 ```
 
 Nachdem ausführen des Befehls sollte das so aussehen:
-![Architecktur Docker](Screenshots/Image.png)
+![Architecktur Docker](Screenshots/image.png)
 
 ### **Erstelle ein Container**
 ```
